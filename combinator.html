@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div p {
+        color: red;
+       }
+       div > p {
+        background-color: yellow;
+       }
+       div + p {
+        background-color: darkgray;
+       }
+       div ~ p {
+        color: cyan;
+       }
+    </style>
+</head>
+<body>
+    <h1>Combinator Selector</h1>
+    <div>
+        <p>This is paragraph</p>
+        <p>This is paragraph</p>
+    </div>
+    <p>This is paragraph</p>
+    <p>This is paragraph</p>
+</body>
+</html>
